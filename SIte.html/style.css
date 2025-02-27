@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: auto;
+}
+
+h1 {
+    color: #007bff;
+}
+
+p {
+    color: #666;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.tec-games{
+    margin-top:auto ;
+    width: auto;
+    height: 40px;
+    background-color: #0056b3;
+}
+
+.container{
+    margin-top:5px;
+    width: auto;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.menu{
+    width: auto;
+    height: 40px;
+    background-color: #0056b3;
+    list-style: none;
+    }
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu ul a{
+    padding: 10px;
+    margin: 15px;
+    background-color:transparent;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: white;
+}
+
+.container{
+    height: 850px;
+    background-color: rgb(83, 83, 83);
+    width: auto;
+    align-items: 20px;
+}
+
+.menor-preco{
+    width: auto;
+    height: 50px;
+    background-color: #666;
+    margin-top: 50px;
+}
+
+.container-produtos{
+    display: flex;
+    gap: 20px;
+    width: auto;
+    margin-top: 10px; 
+    margin-left: 40px;   
+}
+
+.produto1{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.produto2{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.produto3{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.produto4{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.produto5{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.produto6{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.rodape{
+    width: auto;
+    height: 100px;
+    background-color: #0056b3;
+    border-radius: 1px;
+}
+
+
+
+
+
