@@ -86,30 +86,28 @@ ul{
     width: auto;
     height: 50px;
     background-color: #666;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .container-produtos{
+    
     display: flex;
     gap: 20px;
     width: auto;
-    
+    padding: 10px 14px;
+    align-items: center;
+    justify-content: center;
  }
 
 .produtoimg{
-    width: 70px;
-    height: 80px;
-    margin-bottom: 20px;
+    width: 100%;
+    height: 100px;
 }
 
 .produtocard{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.saibamaisjogos{
-    margin-top: 20px;
+    margin-bottom: 20px;    
 }
 
 .card{
@@ -125,6 +123,16 @@ ul{
     margin: 2px 2px 2px;
 }
 
+.card>p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.card>a{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10px;
+}
 
 .rodape{
     width: auto;
