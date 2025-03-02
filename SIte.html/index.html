@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Pagina</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css slider/carrosel.css">
+    <script src="js/slide.js" defer></script>
 </head>
 <body>
         <div class="tec-games">
@@ -22,12 +24,57 @@
                 <button id="botao">Comprar</button>
             </ul>
         </div>
-    <main class="main">
-        <div class="banner">
-        
-        </div>
 
-        <div class="menor-preco">MENOR PREÇO</div>
+        <section class="slider">
+            <div class="slider-content">
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                <input type="radio" name="btn-radio" id="radio4">
+                <input type="radio" name="btn-radio" id="radio5">
+                
+                <div class="slide-box primeiro" >
+                    <img class="img-desktop" src="img/2144780-design-banner-para-jogos-com-efeito-glitch-luz-neon-no-texto-ilustracao-de-jogos-gratis-vetor.jpg" alt="">
+                </div>
+
+                <div class="slide-box" >
+                    <img class="img-desktop" src="img/banner-do-youtube-para-jogos_584197-754.avif" alt="">
+                </div>
+
+                <div class="slide-box" >
+                    <img class="img-desktop" src="img/2144780-design-banner-para-jogos-com-efeito-glitch-luz-neon-no-texto-ilustracao-de-jogos-gratis-vetor.jpg" alt="">
+                </div>
+
+                <div class="slide-box" >
+                    <img class="img-desktop" src="img/OIP (1).jpg" alt="">
+               </div>
+               
+                <div class="slide-box" >
+                    <img class="img-desktop" src="img/OS-JOGOS-MAIS-VENDIDOS-900x503.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+            </div>
+
+        </section>
+    <main class="main">
+        <div class="menor-preco">
+            <p class="texto-menor-preco">MENOR PREÇO</p>
+        </div>
         <div class="container">
             <div class="container-produtos">
                 <div class="card">
