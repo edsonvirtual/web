@@ -32,6 +32,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 button:hover {
@@ -252,7 +253,7 @@ ul{
 .textoboasvindas{
     background-color: #0056b3;
     width: 0 auto;
-    height: 300px;
+    height: 470px;
     justify-items: center;
     margin-top: 20px;
     border-radius: 5px;
@@ -260,7 +261,7 @@ ul{
 }
 
 .textoboasvindas p{
-    font-size: 20px;
+    font-size: 25px;
     padding: 30px;
     color: white;
 }
@@ -295,15 +296,23 @@ ul{
 }
 
 .rodapemenu ul{
-    width: 20%x;
     display: flex;
     flex-direction: column;
+    
 }
 
 .rodapemenu a{
     padding: 10px;
     text-decoration: none;
     color: white;
-    
-    
+    width: 150px;
+}
+
+.rodapemenu a:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color:white;
+    border-radius: 5px;
+    border: none;
+    color:#007bff;
 }
