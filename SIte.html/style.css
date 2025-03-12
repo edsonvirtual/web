@@ -248,3 +248,62 @@ ul{
     cursor: pointer;
 } 
 
+/*------estilo texto------*/
+.textoboasvindas{
+    background-color: #0056b3;
+    width: 0 auto;
+    height: 300px;
+    justify-items: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: #222 5px 5px 5px 1px;
+}
+
+.textoboasvindas p{
+    font-size: 20px;
+    padding: 30px;
+    color: white;
+}
+
+.titulo-textoboasvindas{
+
+}
+
+.containerrodape{
+    width: auto;
+    height: 500px;
+    background-color: #0056b3;
+    display: flex;
+    margin-top: 500px;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.redesocial img{
+    width: 50x;
+    height: 60px;
+}
+
+.copyright{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.copyright p{
+    color: white;
+}
+
+.rodapemenu ul{
+    width: 20%x;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodapemenu a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+    
+}
