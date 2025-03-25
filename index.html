@@ -3,12 +3,209 @@
 <head>
     <meta charset="UTF-8">
     <title>Pagina</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css slider/carrosel.css">
+    <script src="js/slide.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <h1>Tec Games</h1>
-    <p id="mensagem">Bem vindo a Tec Games.</p>
-    <button id="botao">Comprar</button>
-    <script src="script.js"></script>
+    <div class="container-logo">  
+        <div class="logo">
+            <img src="img/logo mrclean.jpg" alt="logo">  
+        </div> 
+    
+    </div>
+            <script src="script.js"></script>
+        </div>
+        <div class="menu">
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="empresa.html">Empresa</a>
+                <a href="quemsomos.html">Quem Somos</a>
+                
+                <a href="login.html"><button id="botao">Login</button></a>
+            </ul>
+        </div>
+
+        
+
+<section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+        <img src="img/logo mrclean.jpg" class="img" alt="">
+        <a href="#carousel__slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <img src="img/logo mrclean.jpg" class="img" alt="">
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <img src="img/logo mrclean.jpg" class="img" alt="">
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <img src="img/logo mrclean.jpg" class="img" alt="">
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+    
+    <main class="main">
+        <div class="menor-preco">
+            <p class="texto-menor-preco">MENOR PREÇO</p>
+        </div>
+        <div class="container">
+            <div class="container-produtos">
+                <div class="card">
+                    <p class="produtocard">produto1</p>
+                    <img src="img/OIP (1).jpg" class="produtoimg" alt="">
+                    <p class="valor2">R$ 200,55</p>
+                    <a href="saibamaisjogos" class="saibamaisjogos">Saiba mais</a>
+                </div>
+
+               <div class="card">
+                    <p class="produtocard">produto2</p>
+                    <img src="img/OIP (1).jpg" class="produtoimg" alt="">
+                    <p class="valor2">R$ 200,55</p>
+                    <a href="saibamaisjogos" class="saibamaisjogos">Saiba mais</a>
+                </div>
+
+                <div class="card">
+                    <p class="produtocard">Produto3</p>
+                    <img src="img/OIP.jpg" class="produtoimg">
+                    <p>R$ 300,55</p>
+                    <a href="saibamaisjogos" class="saibamaisjogos">Saiba mais</a>
+                </div>
+                <div class="card">
+                    <p class="produtocard">produto4</p>                  
+                    <img src="img/OIP (2).jpg" class="produtoimg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>R$ 300,55</p>
+                    <a href="saibamaisjogos" class="saibamaisjogos">Saiba mais</a>
+                </div>
+                <div class="card">
+                    <p class="produtocard">produto5</p>
+                    <img src="img/OS-JOGOS-MAIS-VENDIDOS-900x503.jpg" class="produtoimg" alt="">
+                    <p class="valor3">R$ 300,55</p>
+                    <a href="saibamaisjogos" class="saibamaisjogos">Saiba mais</a>
+                </div>
+                <div class="card">
+                    <p class="produtocard">Produto6</p>
+                    <img src="img/R.jpg" class="produtoimg" alt="">
+                    <p>R$ 300,55</p>
+                    <a href="saibamaisjogos" class="saibamaisjogos">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="interface">
+            <section class="line-footer1">
+                <h2>Quero receber informaçõe</h2>
+                <form action="">
+                    <input type="email" name="" id="email">
+                    <input type="submit" value="Cadastrar">
+                </form>
+            </section>
+
+            <section class="line-footer2">
+                <div class="box-line-footer">
+                    <img src="img/logo mrclean.jpg" alt="Logo Mr.Clean">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, at.  </p>
+                </div>
+
+                <div class="box-line-footer">
+                    <h3>Links uteis</h3>
+                    <div class="links-footer">
+                        <a href="index.html">Home</a></li>
+                        <a href="empresa.html">Empresa</a></li>
+                        <a href="quemsomos.html">Quem Somos</a></li>
+                        <a href="login.html">Login</a></li>
+                     </div>
+                </div>
+
+                <div class="box-line-footer">
+                    <h3>Lojas online</h3>
+                    <div class="links-footer">
+                        <a href="index.html">Home</a></li>
+                        <a href="empresa.html">Empresa</a></li>
+                        <a href="quemsomos.html">Quem Somos</a></li>
+                        <a href="login.html">Login</a></li>
+                    </div>
+                </div>
+
+                <div class="box-line-footer">
+                    <h3>Landing page</h3>
+                    <div class="links-footer">
+                        <a href="index.html">Home</a></li>
+                        <a href="empresa.html">Empresa</a></li>
+                        <a href="quemsomos.html">Quem Somos</a></li>
+                        <a href="login.html">Login</a></li>
+                    </div>
+                </div>
+
+                <div class="box-line-footer">
+                    <h3>Siga-me</h3>
+                    <div class="btn-redes">
+                        <a href=""><button><i class="bi bi-facebook"></i></button></a>
+                        <a href=""><button><i class="bi bi-instagram"></i></button></a>
+                        <a href=""><button><i class="bi bi-whatsapp"></i></button></a>   
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="line-footer3">
+                <p>&copy; Todos os direitos reservado  Mr.Clen</p>
+            </section>
+        </div>
+    </footer>
+
 </body>
 </html>

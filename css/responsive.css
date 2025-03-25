@@ -1,0 +1,49 @@
+@media screen and(max-width: 790px) {
+    .line-footer1 h2{
+        font-size: 1.5rem;
+    }
+
+    .line-footer1 p{
+        font-size: .8rem;
+    }
+
+    .line-footer1 form input[type=email]{
+        width: 200px;
+     
+      }
+      
+      .line-footer1 form input[type=submit]{
+        width: 90px;
+        height: 40px;
+        background-color: #f20744;
+        border: 0;
+        color: #fff;  
+        cursor: pointer;
+        transform: .2s;
+        margin: 5px;
+      }
+
+      footer .line-footer2{  
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      footer .line-footer2 .box-line-footer{
+        max-width: 100%;
+      }
+
+      .line-footer2 .box-line-footer a{
+        margin-bottom: 30px;
+        font-size: 1rem;
+       }
+
+       .box-line-footer .btn-redes button{
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+      }
+
+      footer .line footer{
+        font-size: .8rem;
+      }     
+}
