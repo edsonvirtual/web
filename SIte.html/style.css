@@ -104,7 +104,7 @@ ul{
 
 .container{
     height: 850px;
-    background-color: rgb(83, 71, 255);
+    background-color: #fff;
     width: auto;
 }
 
@@ -172,11 +172,142 @@ ul{
     margin-top: 10px;
 }
 
-.rodape{
-    width: auto;
-    height: 100px;
-    background-color: #0056b3;
-    border-radius: 1px;
+/*-------CSS rodape-------------*/
+
+.interface{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+footer{
+  background-color: #000050;
+  color: #fff;
+  padding: 40px 4%;
+}
+
+footer .line-footer1{
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.line-footer1 h2{
+  font-size: 2.5rem;
+}
+
+.line-footer1 p{
+  font-size: 1.2rem;
+  margin: 10px 0 20px 0;
+}
+
+
+.line-footer1 form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-footer1 form input[type=email]{
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px;
+  outline: 0;
+}
+
+.line-footer1 form input[type=submit]{
+  width: 80px;
+  height: 40px;
+  background-color: #f20744;
+  border: 0;
+  color: #fff;  
+  cursor: pointer;
+  transform: .2s;
+  margin: 5px;
+}
+
+.line-footer1 form input[type=submit]:hover{
+  background-color: #fff;
+  color: #f20744;
+
+}
+
+footer .line-footer2{
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  border-bottom: 1px solid #fff;
+
+}
+
+footer .line-footer2 .box-line-footer{
+ max-width: calc(100% / 5);  
+}
+
+.line-footer2 .box-line-footer h3{
+ color: #f20744;
+ margin-bottom: 10px;
+}
+
+.line-footer2 .box-line-footer a{
+ color: #fff;
+ display: block;
+ margin-bottom: 20px;
+ text-decoration: none;
+ font-size: .9rem;
+}
+
+.line-footer2 .box-line-footer img{
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.line-footer2 .box-line-footer h3{
+  color: #f20744;
+  margin-bottom: 10px;
+
+}
+
+.line-footer2 .box-line-footer a{
+  color: #fff;
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: .9rem;
+}
+
+.box-line-footer .btn-redes a{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-line-footer .btn-redes button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 10px 0;
+  transition: .2s;
+}
+
+.box-line-footer .btn-redes button:hover{
+  background-color: #f20744;
+  border-color: #f20744;
+  transition: 0.2s;
+}
+
+footer .line-footer3{
+  padding-top: 40px;
+  text-align: center;
 }
 
 /*-------CSS TELA LOGIN -------------*/
@@ -571,4 +702,5 @@ ul{
   .carousel::after {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
   }
-  
+
+
